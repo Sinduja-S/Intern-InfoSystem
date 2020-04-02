@@ -1,0 +1,11 @@
+CREATE TABLE `details` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `Name` text NOT NULL,
+ `Course` varchar(100) NOT NULL,
+ `University` varchar(100) NOT NULL,
+ `Mentor_Name` text NOT NULL,
+ `Section_of_Training` varchar(200) NOT NULL,
+ `Period_from` date NOT NULL,
+ `Period_to` date NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=84 DEFAULT CHARSET=latin1
